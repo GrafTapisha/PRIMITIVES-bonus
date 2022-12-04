@@ -11,7 +11,7 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int invoice_amount = amount + pay + bonus;
-        System.out.println("На вашем счету: " + invoice_amount);
+        int invoiceAmount = amount + pay + bonus;
+        System.out.println("На вашем счету: " + invoiceAmount);
     }
 }
